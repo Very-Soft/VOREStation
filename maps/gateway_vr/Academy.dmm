@@ -15,7 +15,6 @@
 	pixel_y = -21;
 	req_access = ""
 	},
-/obj/structure/cable,
 /turf/simulated/floor/wood,
 /area/space)
 "aZ" = (
@@ -25,11 +24,6 @@
 	pixel_y = 21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
-	},
 /turf/simulated/floor/wood,
 /area/space)
 "bc" = (
@@ -38,12 +32,8 @@
 /turf/simulated/floor/reinforced,
 /area/space)
 "be" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/wood,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "bl" = (
 /turf/simulated/floor/reinforced,
@@ -77,17 +67,11 @@
 /turf/simulated/floor/greengrid,
 /area/space)
 "bX" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "ce" = (
 /obj/machinery/power/apc{
@@ -96,38 +80,16 @@
 	pixel_x = -21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "cf" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/carpet,
+/mob/living/simple_mob/creature/strong,
+/turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "cn" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/item/seeds/eggyplant,
 /turf/simulated/floor/tiled/old_cargo/white,
-/area/space)
-"cp" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/greengrid,
 /area/space)
 "cr" = (
 /obj/structure/table/woodentable,
@@ -138,32 +100,25 @@
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "cA" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/item/weapon/stool{
+	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "cH" = (
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "cO" = (
-/obj/structure/simple_door/wood,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "4-10"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "de" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "6-8"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "dh" = (
 /turf/simulated/floor/lino,
@@ -191,29 +146,18 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "dH" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/structure/cable/yellow{
+	icon_state = "6-10"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
+/turf/simulated/floor/carpet,
 /area/space)
 "dN" = (
-/obj/structure/table/standard,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/kafel_full/gray,
+/turf/simulated/floor/carpet,
 /area/space)
 "dO" = (
-/obj/structure/cable,
 /obj/machinery/power/apc{
 	locked = 0;
 	pixel_y = -21;
@@ -222,12 +166,10 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "dP" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "6-8"
 	},
-/turf/simulated/floor/tiled/kafel_full/gray,
+/turf/simulated/floor/carpet,
 /area/space)
 "dR" = (
 /obj/structure/grille,
@@ -251,37 +193,20 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "ej" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "6-10"
 	},
-/turf/simulated/floor/tiled/kafel_full/beige,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "eF" = (
 /obj/item/target,
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "eJ" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "2-6"
 	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "eL" = (
 /obj/structure/table/standard,
@@ -293,11 +218,6 @@
 /obj/machinery/door/window{
 	dir = 8
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/plating,
 /area/space)
 "fa" = (
@@ -305,30 +225,16 @@
 /turf/simulated/floor/wood,
 /area/space)
 "fb" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/pink{
+	icon_state = "5-6"
 	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/space)
 "ff" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "2-10"
 	},
-/turf/simulated/floor/tiled/kafel_full/gray,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "fh" = (
 /turf/simulated/floor/tiled/kafel_full/red,
@@ -342,7 +248,9 @@
 /turf/simulated/floor/plating,
 /area/space)
 "fv" = (
-/obj/item/weapon/stool,
+/obj/item/weapon/stool{
+	dir = 1
+	},
 /turf/simulated/floor,
 /area/space)
 "fz" = (
@@ -356,25 +264,10 @@
 /turf/simulated/floor/wood,
 /area/space)
 "fK" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+/obj/structure/cable/yellow{
+	icon_state = "5-10"
 	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "fL" = (
 /turf/simulated/floor/tiled/old_cargo/white,
@@ -383,7 +276,9 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "fT" = (
-/obj/item/weapon/stool,
+/obj/item/weapon/stool{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "gi" = (
@@ -391,41 +286,35 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "gr" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "8-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-6"
 	},
 /turf/simulated/floor/plating,
 /area/space)
 "gt" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/space)
 "gv" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/structure/cable/yellow{
+	icon_state = "2-10"
 	},
 /turf/simulated/floor/carpet,
 /area/space)
@@ -437,6 +326,9 @@
 /obj/structure/closet,
 /obj/item/weapon/storage/belt/soulstone,
 /obj/item/clothing/under/schoolgirl,
+/obj/structure/cable/yellow{
+	icon_state = "5-9"
+	},
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "gA" = (
@@ -444,6 +336,12 @@
 /obj/item/clothing/under/skirt,
 /obj/item/clothing/glasses/regular,
 /turf/simulated/floor/tiled/kafel_full/green,
+/area/space)
+"gC" = (
+/obj/structure/cable/pink{
+	icon_state = "8-10"
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "gE" = (
 /obj/structure/closet,
@@ -458,12 +356,10 @@
 /turf/simulated/floor/tiled/kafel_full,
 /area/space)
 "gU" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
 	},
-/turf/simulated/floor/tiled/old_cargo/white,
+/turf/simulated/floor/carpet,
 /area/space)
 "gW" = (
 /obj/machinery/light{
@@ -483,12 +379,10 @@
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "hM" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+/obj/structure/cable/yellow{
+	icon_state = "6-9"
 	},
-/turf/simulated/floor/tiled/old_cargo/white,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "hO" = (
 /obj/structure/lattice,
@@ -519,14 +413,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"it" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "iu" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -536,12 +422,10 @@
 /turf/simulated/floor/tiled/kafel_full/red,
 /area/space)
 "ix" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/kafel_full/red,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "iz" = (
 /obj/structure/grille,
@@ -560,10 +444,6 @@
 	dir = 4;
 	health = 1e+007
 	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/plating,
 /area/space)
 "iG" = (
@@ -571,10 +451,8 @@
 /turf/simulated/floor/plating,
 /area/space)
 "jc" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "5-9"
 	},
 /turf/simulated/floor/carpet,
 /area/space)
@@ -608,8 +486,10 @@
 /turf/simulated/floor/grass,
 /area/space)
 "jE" = (
-/obj/structure/cable,
-/turf/simulated/floor/plating,
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
+	},
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "jL" = (
 /turf/simulated/floor/carpet,
@@ -621,12 +501,10 @@
 /turf/space,
 /area/space)
 "kr" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
+/obj/item/clothing/suit/caution,
+/obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/item/clothing/suit/caution,
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "ku" = (
@@ -641,33 +519,17 @@
 /area/space)
 "kz" = (
 /obj/structure/table/standard,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/item/stack/cable_coil/random,
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "kA" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/structure/cable/yellow{
+	icon_state = "9-10"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "kB" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
-	},
+/obj/random/mob/semirandom_mob_spawner/monster,
 /turf/simulated/floor/plating,
 /area/space)
 "kE" = (
@@ -677,25 +539,10 @@
 /turf/simulated/floor/plating,
 /area/space)
 "kF" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/structure/cable/yellow{
+	icon_state = "5-6"
 	},
-/turf/simulated/floor/carpet,
-/area/space)
-"kN" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/kafel_full/yellow,
+/turf/simulated/floor/plating,
 /area/space)
 "kQ" = (
 /obj/structure/window/reinforced{
@@ -728,84 +575,59 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "lJ" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "2-6"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+/obj/structure/cable/yellow{
+	icon_state = "6-10"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/plating,
 /area/space)
 "lL" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "lS" = (
-/obj/structure/grille,
-/obj/structure/cable,
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
 	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
+/turf/simulated/floor/tiled/kafel_full/yellow,
+/area/space)
+"lW" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-5"
 	},
-/obj/structure/window/reinforced{
-	health = 1e+007
+/turf/simulated/floor/carpet,
+/area/space)
+"mg" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-5"
+	},
+/turf/simulated/floor/tiled/kafel_full/yellow,
+/area/space)
+"mj" = (
+/obj/structure/cable/pink{
+	icon_state = "2-6"
+	},
+/obj/structure/cable/pink{
+	icon_state = "2-5"
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"lW" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+"mo" = (
+/obj/machinery/power/terminal{
+	dir = 8
 	},
-/turf/simulated/floor/lino,
-/area/space)
-"mg" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 2;
+/obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"mj" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+"my" = (
+/obj/structure/cable/pink{
+	icon_state = "6-8"
 	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
-"mo" = (
-/obj/machinery/door/airlock/freezer,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/kafel_full/white,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "mD" = (
 /obj/structure/table/standard,
@@ -816,6 +638,9 @@
 "mH" = (
 /obj/structure/table/rack,
 /obj/item/clothing/glasses/welding,
+/obj/structure/cable/pink{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "mM" = (
@@ -824,25 +649,16 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "mN" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+/obj/structure/cable/yellow{
+	icon_state = "6-9"
 	},
 /turf/simulated/floor/carpet,
 /area/space)
 "mQ" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
 	},
-/turf/simulated/floor/tiled/old_cargo/gray,
+/turf/simulated/floor/plating,
 /area/space)
 "ne" = (
 /obj/machinery/gateway{
@@ -877,66 +693,40 @@
 	pixel_x = -21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/wood,
 /area/space)
 "nV" = (
-/obj/structure/frame,
+/obj/structure/cable/yellow{
+	icon_state = "8-9"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "oc" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "6-9"
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "od" = (
-/obj/structure/simple_door/iron,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/machinery/power/rtg/kugelblitz,
+/obj/structure/cable/yellow{
+	icon_state = "0-10"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/plating,
 /area/space)
 "oh" = (
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/kafel_full,
 /area/space)
 "ok" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/structure/cable/pink{
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet,
-/area/space)
-"ol" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	locked = 0;
-	pixel_y = 21;
-	req_access = ""
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/tiled/kafel_full,
+/turf/simulated/floor/plating,
 /area/space)
 "oA" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/pink{
+	icon_state = "9-10"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -952,18 +742,14 @@
 /turf/simulated/floor,
 /area/space)
 "pN" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
+/obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "pO" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "5-9"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
@@ -980,11 +766,6 @@
 /area/space)
 "qh" = (
 /obj/machinery/door/window,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/plating,
 /area/space)
 "qk" = (
@@ -1009,31 +790,21 @@
 /obj/machinery/door/blast/shutters{
 	id = "AcademyGate"
 	},
-/turf/simulated/floor/plating{
-	icon_state = "warnplate"
-	},
+/turf/simulated/floor/plating,
 /area/space)
 "qD" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet,
 /area/space)
 "rd" = (
-/obj/machinery/door/airlock/freezer,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/pink{
+	icon_state = "1-9"
 	},
-/turf/simulated/floor/tiled/kafel_full/white,
+/turf/simulated/floor/plating,
 /area/space)
 "rx" = (
 /obj/machinery/gateway{
 	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -1052,30 +823,24 @@
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "rN" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/structure/cable/yellow{
+	icon_state = "5-8"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "rP" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "1-5"
 	},
-/turf/simulated/floor/tiled/kafel_full/white,
+/turf/simulated/floor/plating,
 /area/space)
 "so" = (
 /obj/item/stack/material/steel,
 /turf/simulated/floor/plating,
 /area/space)
 "sq" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
@@ -1088,12 +853,10 @@
 /turf/simulated/floor/plating,
 /area/space)
 "sH" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/structure/cable/yellow{
+	icon_state = "4-6"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "sL" = (
 /obj/structure/closet,
@@ -1106,31 +869,26 @@
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "sP" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
+/obj/structure/cable/yellow{
+	icon_state = "8-9"
+	},
+/turf/simulated/floor/tiled/kafel_full/yellow,
+/area/space)
+"sT" = (
+/obj/structure/cable/pink{
 	icon_state = "4-8"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/green,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "sY" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/structure/cable/yellow{
+	icon_state = "4-5"
 	},
-/turf/simulated/floor/tiled/kafel_full/white,
+/turf/simulated/floor/plating,
 /area/space)
 "tb" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/structure/cable/pink{
+	icon_state = "2-10"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -1142,27 +900,19 @@
 /area/space)
 "tn" = (
 /obj/structure/sink/kitchen{
-	pixel_y = 28
+	pixel_y = 17
 	},
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "tp" = (
-/obj/structure/bed/chair/wood,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "6-8"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/plating,
 /area/space)
 "tx" = (
 /obj/machinery/gateway{
 	dir = 9
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -1172,11 +922,6 @@
 /area/space)
 "tE" = (
 /obj/effect/decal/cleanable/cobweb2,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "tI" = (
@@ -1195,12 +940,13 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "tV" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/machinery/power/terminal{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/kafel_full,
+/obj/structure/cable/yellow{
+	icon_state = "0-6"
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "tY" = (
 /obj/structure/window/reinforced,
@@ -1212,29 +958,21 @@
 /turf/simulated/floor/wood,
 /area/space)
 "ug" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
+/obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/old_cargo/gray,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "ul" = (
 /obj/effect/landmark/gateway_scatter,
 /turf/simulated/floor/reinforced,
 /area/space)
 "uv" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/random/mob/semirandom_mob_spawner/monster,
+/obj/structure/cable/yellow{
+	icon_state = "6-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/plating,
 /area/space)
 "uw" = (
 /obj/item/weapon/stool,
@@ -1249,30 +987,19 @@
 /turf/simulated/floor/tiled/kafel_full/beige,
 /area/space)
 "uP" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
+/obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/plating,
 /area/space)
 "uX" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/pink{
+	icon_state = "1-5"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/structure/cable/pink{
+	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/kafel_full/red,
+/turf/simulated/floor/plating,
 /area/space)
 "uY" = (
 /obj/structure/window/reinforced{
@@ -1295,17 +1022,10 @@
 /turf/simulated/floor/lino,
 /area/space)
 "vh" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/structure/cable/yellow{
+	icon_state = "2-9"
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/plating,
 /area/space)
 "vu" = (
 /obj/structure/toilet{
@@ -1319,11 +1039,6 @@
 "vv" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/item/seeds/replicapod,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "vG" = (
@@ -1346,33 +1061,21 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
 /turf/simulated/floor/wood,
 /area/space)
 "vQ" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/structure/cable/yellow{
+	icon_state = "1-9"
 	},
-/turf/simulated/floor/tiled/kafel_full/red,
+/turf/simulated/floor/plating,
 /area/space)
 "vX" = (
 /obj/machinery/gibber,
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "wa" = (
-/obj/machinery/portable_atmospherics/hydroponics,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/old_cargo/white,
+/obj/random/mob/semirandom_mob_spawner/monster,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "wc" = (
 /obj/machinery/power/apc{
@@ -1381,47 +1084,12 @@
 	pixel_x = 21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
-"wd" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "wj" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
 /obj/item/weapon/weldingtool,
 /obj/effect/landmark/gateway_scatter,
 /turf/simulated/floor/greengrid,
-/area/space)
-"wp" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "wB" = (
 /obj/structure/table/reinforced,
@@ -1440,75 +1108,26 @@
 "xi" = (
 /turf/simulated/mineral/ignore_cavegen,
 /area/space)
-"xl" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/cable,
-/turf/simulated/floor/plating,
-/area/space)
 "xy" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/yellow{
+	icon_state = "6-9"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/obj/structure/cable/yellow{
+	icon_state = "5-9"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "xB" = (
 /obj/structure/table/standard,
 /obj/item/clothing/glasses/meson,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/kafel_full/red,
-/area/space)
-"xG" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/obj/structure/cable,
-/turf/simulated/floor/plating,
 /area/space)
 "xX" = (
 /obj/structure/table/rack,
 /obj/item/weapon/storage/toolbox/mechanical,
+/obj/structure/cable/pink{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "yc" = (
@@ -1516,47 +1135,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet,
-/area/space)
-"yi" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"ym" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/chapel{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "yz" = (
 /obj/structure/grille,
@@ -1583,22 +1161,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
-"yG" = (
-/obj/structure/grille,
-/obj/structure/cable,
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/turf/simulated/floor/plating,
-/area/space)
 "yL" = (
 /obj/machinery/light{
 	dir = 4
@@ -1609,23 +1171,8 @@
 /obj/item/weapon/storage/box/monkeycubes,
 /turf/simulated/floor/plating,
 /area/space)
-"yP" = (
-/obj/machinery/door/blast/shutters{
-	dir = 2;
-	id = "AcademyAuto"
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "warning"
-	},
-/area/space)
 "yY" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
 /obj/structure/window/reinforced{
 	dir = 1;
 	health = 1e+007
@@ -1638,23 +1185,11 @@
 	dir = 8;
 	health = 1e+007
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /turf/simulated/floor/plating,
 /area/space)
 "zf" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/kafel_full/red,
-/area/space)
-"zh" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "zm" = (
 /obj/structure/filingcabinet/filingcabinet,
@@ -1667,10 +1202,6 @@
 	pixel_y = 21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "zt" = (
@@ -1680,70 +1211,39 @@
 	pixel_y = 21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /turf/simulated/floor/tiled/kafel_full,
+/area/space)
+"zw" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/cable/pink{
+	icon_state = "1-10"
+	},
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "zy" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/item/seeds/bluespacetomatoseed,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/tiled/old_cargo/white,
-/area/space)
-"zV" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "zZ" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/space,
 /area/space)
-"Aa" = (
-/obj/machinery/shieldwallgen,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/old_cargo/white,
-/area/space)
 "As" = (
 /obj/structure/closet,
 /obj/item/weapon/storage/wallet/random,
 /obj/item/clothing/glasses/regular/hipster,
-/turf/simulated/floor/tiled/kafel_full/green,
-/area/space)
-"Az" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/structure/cable/yellow{
+	icon_state = "5-9"
 	},
-/turf/simulated/floor/tiled/kafel_full/red,
+/turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "AB" = (
 /obj/structure/cult/tome,
 /obj/item/weapon/staff,
 /turf/simulated/floor/wood,
-/area/space)
-"AG" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/kafel_full/red,
 /area/space)
 "AL" = (
 /obj/structure/table/woodentable,
@@ -1781,17 +1281,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
-"Bs" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/chapel{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
-/area/space)
 "By" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -1799,33 +1288,19 @@
 	pixel_x = -21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/tiled/kafel_full/red,
 /area/space)
 "BJ" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /obj/machinery/power/apc{
 	dir = 1;
 	locked = 0;
 	pixel_y = 21;
 	req_access = ""
 	},
-/turf/simulated/floor/tiled/kafel_full/yellow,
-/area/space)
-"BO" = (
-/obj/machinery/door/airlock/hatch,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/cable/pink{
+	icon_state = "0-2"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "BQ" = (
 /obj/effect/decal/cleanable/ash,
@@ -1835,31 +1310,6 @@
 /obj/structure/table/standard,
 /obj/item/weapon/flame/lighter/random,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
-"Cd" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "Cq" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -1917,15 +1367,6 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/red,
 /area/space)
-"CZ" = (
-/obj/machinery/door/airlock/gold,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "Dc" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/tiled/kafel_full/purple,
@@ -1952,33 +1393,6 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
-"Dt" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
-"DF" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
 "DL" = (
 /obj/structure/sink{
 	dir = 4;
@@ -1992,31 +1406,11 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
-"Ex" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/old_cargo/gray,
-/area/space)
 "ED" = (
 /obj/machinery/shieldwallgen,
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "EN" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
-	},
 /obj/machinery/power/apc{
 	dir = 1;
 	locked = 0;
@@ -2038,86 +1432,10 @@
 /obj/item/weapon/circuitboard/telecomms/relay,
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
-"Fe" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/lino,
-/area/space)
-"Fl" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/yellow,
-/area/space)
-"Fn" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/plating,
-/area/space)
 "Fo" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/purple,
 /turf/simulated/floor/wood,
-/area/space)
-"Fs" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "Ft" = (
 /obj/structure/kitchenspike,
@@ -2136,16 +1454,6 @@
 "FA" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/tiled/old_cargo/white,
-/area/space)
-"FJ" = (
-/obj/structure/table/reinforced,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "FL" = (
 /obj/structure/grille,
@@ -2169,20 +1477,7 @@
 	},
 /obj/structure/table/standard,
 /obj/item/weapon/beach_ball/holoball,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
 /turf/simulated/floor/tiled/kafel_full/red,
-/area/space)
-"FU" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/grass,
 /area/space)
 "FW" = (
 /obj/item/device/multitool,
@@ -2195,10 +1490,6 @@
 	pixel_y = 21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
 "Gi" = (
@@ -2206,7 +1497,9 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "Gl" = (
-/obj/item/weapon/stool,
+/obj/item/weapon/stool{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/kafel_full/purple,
 /area/space)
 "Gw" = (
@@ -2230,40 +1523,6 @@
 /obj/item/ammo_casing,
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
-"GZ" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/kafel_full,
-/area/space)
-"Hc" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
-"Hg" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	locked = 0;
-	pixel_y = 21;
-	req_access = ""
-	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "Hl" = (
 /obj/machinery/gateway{
 	dir = 4
@@ -2271,11 +1530,6 @@
 /turf/simulated/floor/plating,
 /area/space)
 "Ho" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
-	},
 /obj/machinery/power/apc{
 	dir = 1;
 	locked = 0;
@@ -2314,20 +1568,13 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/machinery/chem_master/condimaster,
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "HW" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
-"It" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "Ix" = (
 /obj/machinery/light/small{
@@ -2345,23 +1592,10 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "II" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/cable/yellow{
+	icon_state = "6-10"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
-/area/space)
-"IK" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/door/window{
-	dir = 2
-	},
-/turf/simulated/floor/carpet,
 /area/space)
 "IY" = (
 /obj/machinery/light/small{
@@ -2375,17 +1609,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
-"Je" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/kafel_full/red,
 /area/space)
 "Jv" = (
 /obj/structure/toilet{
@@ -2410,17 +1633,6 @@
 /obj/item/weapon/storage/briefcase,
 /turf/simulated/floor/carpet,
 /area/space)
-"JR" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "JS" = (
 /obj/structure/closet,
 /obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer,
@@ -2434,41 +1646,25 @@
 /area/space)
 "JV" = (
 /obj/structure/table/woodentable,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/item/weapon/dice/d20,
 /turf/simulated/floor/carpet,
 /area/space)
 "Kb" = (
 /obj/machinery/power/smes,
-/obj/structure/cable,
+/obj/structure/cable/pink{
+	icon_state = "0-10"
+	},
 /turf/simulated/floor/plating,
-/area/space)
-"Kg" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/carpet,
 /area/space)
 "Ko" = (
 /obj/structure/table/rack,
+/obj/structure/cable/pink{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "Kt" = (
 /obj/machinery/autolathe,
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
-	},
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "KB" = (
@@ -2476,10 +1672,6 @@
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "KI" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /obj/machinery/power/apc{
 	dir = 1;
 	locked = 0;
@@ -2499,10 +1691,6 @@
 /turf/simulated/floor/tiled/kafel_full,
 /area/space)
 "KW" = (
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /obj/machinery/power/apc{
 	dir = 1;
 	locked = 0;
@@ -2532,11 +1720,7 @@
 /area/space)
 "Lk" = (
 /obj/machinery/power/smes,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+/obj/structure/cable/pink,
 /turf/simulated/floor/plating,
 /area/space)
 "Lm" = (
@@ -2556,13 +1740,15 @@
 /obj/item/weapon/stock_parts/subspace/sub_filter,
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
+"LP" = (
+/obj/structure/cable/pink{
+	icon_state = "4-9"
+	},
+/turf/simulated/floor/tiled/kafel_full/yellow,
+/area/space)
 "LU" = (
 /obj/structure/table/standard,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "LX" = (
@@ -2594,27 +1780,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"Me" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
-/area/space)
 "Mg" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/folder/blue,
 /turf/simulated/floor/carpet,
-/area/space)
-"Mh" = (
-/obj/structure/simple_door/iron,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/kafel_full,
 /area/space)
 "Mj" = (
 /obj/machinery/door/airlock/glass,
@@ -2627,24 +1796,13 @@
 /turf/simulated/floor/wood,
 /area/space)
 "Mt" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
+/obj/structure/cable/yellow{
 	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "Mu" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /obj/item/weapon/material/shard,
 /obj/structure/window/reinforced{
 	health = 1e+007
@@ -2655,37 +1813,8 @@
 	},
 /turf/simulated/floor/airless,
 /area/space)
-"MH" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/red,
-/area/space)
-"MR" = (
-/obj/effect/floor_decal/chapel{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
-/area/space)
 "MW" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
@@ -2697,31 +1826,9 @@
 	dir = 8;
 	health = 1e+007
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /turf/simulated/floor/plating,
 /area/space)
-"MY" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
 "Ng" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/recharger,
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/kafel_full/gray,
@@ -2746,12 +1853,10 @@
 /turf/simulated/floor/wood,
 /area/space)
 "NI" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/power/smes,
+/obj/structure/cable/pink{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "NL" = (
@@ -2763,19 +1868,6 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
-"Oy" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
 "Oz" = (
 /obj/structure/grille,
@@ -2789,15 +1881,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"OF" = (
-/obj/machinery/computer/mecha,
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
-	},
-/turf/simulated/floor/greengrid,
-/area/space)
 "OP" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled/kafel_full/white,
@@ -2809,20 +1892,20 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "OX" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
+/obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
+/obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
+/obj/structure/cable/yellow{
 	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -2839,11 +1922,6 @@
 /area/space)
 "Pr" = (
 /obj/structure/table/standard,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/item/weapon/pen/red,
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
@@ -2851,29 +1929,10 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/kafel_full/purple,
 /area/space)
-"PH" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/kafel_full,
-/area/space)
 "PT" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/hand_labeler,
 /turf/simulated/floor/wood,
-/area/space)
-"Qd" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/carpet,
 /area/space)
 "Qk" = (
 /obj/structure/table/reinforced,
@@ -2889,6 +1948,12 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/green,
 /area/space)
+"QA" = (
+/obj/structure/cable/pink{
+	icon_state = "5-8"
+	},
+/turf/simulated/floor/tiled/kafel_full/yellow,
+/area/space)
 "QV" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/tiled/kafel_full/white,
@@ -2902,6 +1967,9 @@
 "QZ" = (
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/structure/cable/pink{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
@@ -2932,11 +2000,6 @@
 /turf/simulated/floor/plating,
 /area/space)
 "Rx" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/structure/noticeboard{
 	pixel_y = -32
 	},
@@ -2947,10 +2010,8 @@
 /area/space)
 "RA" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -2958,25 +2019,8 @@
 /obj/structure/cult/pylon,
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
-"RY" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
 "Sd" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+007
@@ -3001,47 +2045,9 @@
 "Sx" = (
 /turf/simulated/floor/tiled/kafel_full/purple,
 /area/space)
-"Sy" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "SC" = (
 /obj/item/stack/cable_coil/random,
 /turf/simulated/floor/tiled/kafel_full/yellow,
-/area/space)
-"SF" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "SU" = (
 /obj/structure/bed/chair{
@@ -3063,11 +2069,6 @@
 /area/space)
 "Te" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
 /obj/structure/window/reinforced{
 	dir = 1;
 	health = 1e+007
@@ -3079,7 +2080,6 @@
 	dir = 4;
 	health = 1e+007
 	},
-/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/space)
 "Tf" = (
@@ -3096,28 +2096,6 @@
 /obj/item/weapon/coin/phoron,
 /turf/simulated/floor/carpet,
 /area/space)
-"Tn" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/red,
-/area/space)
-"Tu" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/kafel_full/white,
-/area/space)
 "Ty" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/power/apc{
@@ -3126,18 +2104,9 @@
 	pixel_y = 21;
 	req_access = ""
 	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
 "TC" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/light/small,
 /turf/simulated/floor/carpet,
 /area/space)
@@ -3146,16 +2115,6 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/kafel_full/gray,
-/area/space)
-"TO" = (
-/obj/structure/table/woodentable,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/item/weapon/pen/red,
-/turf/simulated/floor/carpet,
 /area/space)
 "TS" = (
 /obj/machinery/vending/hydronutrients,
@@ -3173,9 +2132,11 @@
 /turf/simulated/floor/plating,
 /area/space)
 "Ub" = (
-/obj/item/weapon/stool,
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/item/weapon/stool{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/kafel_full/purple,
 /area/space)
@@ -3189,8 +2150,7 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/obj/structure/cable{
-	d2 = 4;
+/obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
@@ -3201,15 +2161,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
-"Us" = (
-/obj/structure/simple_door/wood,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
-/area/space)
 "Uu" = (
 /obj/machinery/light{
 	dir = 8
@@ -3218,11 +2169,7 @@
 /turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "UE" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/space)
 "UJ" = (
@@ -3239,20 +2186,7 @@
 /obj/item/weapon/reagent_containers/food/drinks/coffee,
 /turf/simulated/floor/carpet,
 /area/space)
-"Vc" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/wood,
-/area/space)
 "Vr" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/item/stack/animalhide/monkey,
 /turf/simulated/floor/wood,
 /area/space)
@@ -3262,19 +2196,6 @@
 /obj/item/weapon/flame/candle,
 /obj/item/weapon/storage/box/matches,
 /turf/simulated/floor/tiled/kafel_full/green,
-/area/space)
-"Vx" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/carpet,
 /area/space)
 "VA" = (
 /obj/structure/table/woodentable,
@@ -3298,11 +2219,6 @@
 /area/space)
 "VN" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/structure/window/reinforced{
 	dir = 1;
 	health = 1e+007
@@ -3313,10 +2229,6 @@
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+007
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -3328,27 +2240,14 @@
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/space)
-"Wa" = (
-/obj/structure/grille,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
+"VY" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/pink{
 	icon_state = "1-2"
 	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+007
-	},
-/obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "Wg" = (
 /obj/structure/table/standard,
@@ -3358,28 +2257,12 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/tiled/kafel_full/red,
 /area/space)
 "Wm" = (
 /obj/structure/grille,
-/obj/structure/cable,
+/obj/structure/cable/yellow,
 /turf/simulated/floor/plating,
-/area/space)
-"Wn" = (
-/obj/machinery/door/airlock/gold{
-	locked = 1
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/carpet,
 /area/space)
 "WB" = (
 /obj/machinery/processor,
@@ -3414,25 +2297,14 @@
 	},
 /turf/simulated/floor/tiled/kafel_full,
 /area/space)
-"Xd" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/tiled/kafel_full,
-/area/space)
 "Xh" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/maintenance_hatch,
 /turf/simulated/floor/plating,
 /area/space)
 "Xj" = (
-/obj/structure/cable,
 /obj/machinery/gateway/centeraway{
 	calibrated = 0
 	},
@@ -3440,38 +2312,17 @@
 /area/space)
 "Xs" = (
 /obj/machinery/computer/mecha,
-/obj/structure/cable,
 /turf/simulated/floor/greengrid,
 /area/space)
-"XB" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/old_cargo/gray,
-/area/space)
 "XL" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/greengrid,
 /area/space)
 "XV" = (
 /obj/effect/decal/cleanable/blood/oil,
+/obj/structure/cable/yellow{
+	icon_state = "5-6"
+	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "Yb" = (
@@ -3504,17 +2355,6 @@
 	},
 /turf/simulated/floor/tiled/kafel_full/white,
 /area/space)
-"YF" = (
-/obj/machinery/door/airlock/gold{
-	locked = 1
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "YH" = (
 /obj/structure/closet/crate,
 /obj/item/weapon/tool/crowbar/red,
@@ -3526,6 +2366,12 @@
 /obj/item/weapon/stock_parts/micro_laser,
 /obj/item/weapon/stock_parts/subspace/sub_filter,
 /obj/item/weapon/stock_parts/subspace/ansible,
+/turf/simulated/floor/tiled/kafel_full/yellow,
+/area/space)
+"YO" = (
+/obj/structure/cable/pink{
+	icon_state = "4-5"
+	},
 /turf/simulated/floor/tiled/kafel_full/yellow,
 /area/space)
 "YT" = (
@@ -3549,19 +2395,16 @@
 /obj/machinery/door/airlock/gold,
 /turf/simulated/floor/carpet,
 /area/space)
+"Zn" = (
+/obj/structure/cable/pink{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "Zp" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/pen/red,
 /turf/simulated/floor/carpet,
-/area/space)
-"Zr" = (
-/obj/effect/floor_decal/chapel,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/kafel_full/gray,
 /area/space)
 "Zt" = (
 /obj/structure/noticeboard{
@@ -3572,49 +2415,9 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
-"Zx" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/kafel_full/yellow,
-/area/space)
-"ZA" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/carpet,
-/area/space)
-"ZC" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/carpet,
-/area/space)
 "ZD" = (
 /obj/item/target,
 /turf/simulated/floor/reinforced,
-/area/space)
-"ZE" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
 /area/space)
 "ZH" = (
 /obj/structure/frame/computer,
@@ -10924,13 +9727,13 @@ Kt
 LU
 Pr
 kz
-LU
-XB
-mQ
+be
+cH
+cH
 bT
-kB
+Rl
 wj
-jE
+Rl
 bT
 jW
 iG
@@ -10952,12 +9755,12 @@ IY
 Rl
 jW
 Rl
+fb
 Rl
-Rl
-Rl
-Rl
-Rl
-Rl
+mj
+ok
+ok
+uX
 jW
 jW
 kn
@@ -11060,18 +9863,18 @@ kn
 kn
 kn
 kn
-yP
-cH
-cH
-cH
-cH
+Yb
 cH
 cH
 cH
 UE
+cH
+cH
+cH
+cH
 bT
 ng
-cp
+XL
 ng
 bT
 jW
@@ -11097,10 +9900,10 @@ tb
 Lk
 oA
 NI
-oA
+rd
 Kb
-Rl
-hL
+Zn
+YO
 jW
 jW
 kn
@@ -11212,7 +10015,7 @@ Rl
 Rl
 UE
 bT
-OF
+Xs
 XL
 Xs
 bT
@@ -11235,14 +10038,14 @@ Rl
 Rl
 fu
 jW
-gr
-Ui
 Rl
 Ui
-Rl
-Ui
-Rl
-hL
+kF
+mo
+rP
+tV
+gC
+my
 hL
 jW
 jW
@@ -11353,10 +10156,10 @@ Rl
 Rl
 Rl
 UE
-cH
-cH
+UE
 UE
 cH
+UE
 cH
 il
 AM
@@ -11368,24 +10171,24 @@ AM
 sw
 NR
 jW
-Cd
-eJ
+WO
+Md
 eR
-Wa
-eJ
+WO
+Md
 eR
-Wa
-fK
+WO
+Md
 jW
-gr
-gr
 Rl
 gr
+lJ
+mQ
 Rl
-gr
 Rl
-hL
-hL
+vh
+mg
+LP
 hL
 jW
 jW
@@ -11495,11 +10298,11 @@ Rl
 so
 Rl
 UE
-cH
-cH
 UE
 cH
 cH
+cH
+UE
 il
 ih
 dS
@@ -11510,7 +10313,7 @@ ih
 dS
 ih
 il
-Aa
+ED
 fL
 fL
 fL
@@ -11519,15 +10322,15 @@ fL
 fL
 ED
 jW
-Fl
-kN
+hL
+rN
 pO
 xy
-pO
-rN
+sH
 hL
+II
 hL
-hL
+sT
 hL
 jW
 FW
@@ -11639,7 +10442,7 @@ Rl
 UE
 cH
 cH
-UE
+cH
 cH
 cH
 JT
@@ -11652,7 +10455,7 @@ ih
 ih
 ih
 JT
-zh
+fL
 Zb
 Zb
 Zb
@@ -11662,14 +10465,14 @@ Zb
 fL
 jW
 II
+ff
+lS
 hL
+sP
+sq
 hL
-hL
-hL
-hL
-hL
-hL
-hL
+pO
+sT
 hL
 jW
 ie
@@ -11772,46 +10575,46 @@ kn
 kn
 Yb
 cH
+UE
 cH
 cH
 cH
 cH
 cH
 cH
-Ex
-XB
-XB
-ug
-XB
-XB
-od
-MY
-MY
-MY
-MY
-MY
-MY
-MY
-RY
-od
-Oy
+cH
+cH
+cH
+cH
+cH
+JT
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+JT
+fL
 Zb
 fz
 fv
 fz
 fv
 fz
-uw
+cA
 jW
-Zx
+hL
 sq
 hL
 hL
 hL
+ug
+lS
 hL
-hL
-hL
-hL
+QA
 hL
 Ba
 bl
@@ -11918,11 +10721,11 @@ cH
 cH
 Bm
 cH
-cH
-cH
+UE
+UE
 wc
 cH
-Bm
+bX
 cH
 cH
 cH
@@ -11936,7 +10739,7 @@ dh
 dh
 Rx
 il
-zh
+fL
 Zb
 Zb
 Zb
@@ -11946,13 +10749,13 @@ Zb
 fL
 jW
 BJ
-Mt
+VY
 QZ
 Ko
 Ko
 mH
 xX
-QZ
+zw
 hL
 hL
 jW
@@ -12076,7 +10879,7 @@ jL
 jL
 jL
 dh
-lW
+dh
 il
 zp
 pi
@@ -12085,7 +10888,7 @@ Zb
 fz
 fv
 fz
-uw
+cA
 jW
 jW
 Xh
@@ -12218,7 +11021,7 @@ Dg
 bM
 jL
 dh
-lW
+dh
 il
 VV
 eL
@@ -12345,22 +11148,22 @@ bl
 bl
 ZD
 fh
-Az
-cA
-cA
-cA
-cA
-cA
-cA
-cO
-de
-de
-jc
-MR
-Zr
-jc
-de
-lJ
+fh
+hV
+hV
+hV
+hV
+hV
+hV
+gi
+dh
+dh
+jL
+dz
+bN
+jL
+dh
+dh
 il
 il
 il
@@ -12502,7 +11305,7 @@ jL
 jL
 jL
 dh
-lW
+dh
 il
 qo
 hV
@@ -12644,22 +11447,22 @@ Dg
 bM
 jL
 dh
-vh
+dh
 VN
 hV
 nH
 cr
 fC
-tp
+nH
 cr
 fC
 hV
 il
 ku
-pN
+de
 Vu
 il
-ol
+zt
 tI
 tI
 tI
@@ -12786,23 +11589,23 @@ dz
 bN
 jL
 dh
-lW
-Fs
+dh
+TT
 hV
 hV
 hV
 hV
-Vc
+hV
 hV
 hV
 hV
 il
 ku
-pN
+ku
 gz
 il
-tV
-PH
+gM
+tI
 tI
 tI
 tI
@@ -12811,9 +11614,9 @@ tI
 tI
 il
 FR
-uX
+fh
 xB
-vQ
+fh
 rz
 jW
 jW
@@ -12928,23 +11731,23 @@ jL
 jL
 jL
 dh
-lW
-Fs
+dh
+TT
 hV
 uZ
 hV
 fa
-Vc
+hV
 uf
 hV
 hV
 il
 oF
-pN
+fK
 gA
 il
 gM
-GZ
+tI
 gW
 tI
 tI
@@ -13064,29 +11867,29 @@ fC
 hV
 il
 KI
-de
-jc
-Bs
-ym
-jc
-de
-Fe
+dh
+jL
+Dg
+bM
+jL
+dh
+dh
 Te
 hV
 fa
 hV
 qd
-Vc
+hV
 LX
 hV
 hV
 il
+cO
 ku
-pN
 QY
 il
+gM
 tI
-GZ
 il
 Rf
 il
@@ -13094,13 +11897,13 @@ Rf
 il
 Rf
 il
-yi
-fb
-fb
-fb
-fb
-fb
-yG
+FL
+jx
+jx
+jx
+jx
+jx
+Rp
 jW
 jW
 jW
@@ -13212,23 +12015,23 @@ dz
 bN
 jL
 dh
-lW
+dh
 il
 hV
 hV
 hV
 hV
-Vc
+hV
 hV
 hV
 hV
 il
-ku
 pN
+ku
 Tc
 il
 oh
-GZ
+tI
 il
 KM
 il
@@ -13236,7 +12039,7 @@ Jv
 il
 Yn
 il
-ej
+je
 je
 je
 je
@@ -13354,38 +12157,38 @@ jL
 jL
 jL
 dh
-lW
+dh
 il
 il
 yY
-mg
-mg
+jx
+jx
 MW
 il
 Sk
 il
 il
+de
 ku
-pN
 il
 il
 il
-Mh
-il
-il
-il
+Rf
 il
 il
 il
 il
-wd
-jc
-Qd
-jc
-jc
-jc
-oc
-Sy
+il
+il
+il
+jL
+jL
+yL
+jL
+jL
+jL
+yc
+jL
 je
 je
 jW
@@ -13496,23 +12299,23 @@ Dg
 bM
 jL
 dh
-lW
+dh
 il
 dh
-lW
 dh
 dh
-lW
+dh
+dh
 dh
 jL
 dh
 il
 jL
-it
+jc
 hV
 hV
 hV
-Vc
+hV
 EW
 hV
 hV
@@ -13520,14 +12323,14 @@ xc
 hV
 hV
 il
-it
+jL
 jL
 il
 jL
 jL
 Cw
 sw
-JR
+nF
 je
 uK
 jW
@@ -13608,7 +12411,7 @@ jL
 jL
 jW
 aZ
-be
+hV
 jL
 jL
 jL
@@ -13619,7 +12422,7 @@ ih
 Dg
 bM
 OP
-rP
+ih
 tS
 cw
 Hv
@@ -13636,25 +12439,25 @@ dh
 jL
 dz
 bN
-kF
-de
-kA
-jc
-jc
-ok
+jL
+dh
 jL
 jL
-it
+jL
+jL
+jL
+jL
+jL
 jL
 jL
 jL
 il
+dH
 jL
-it
 hV
 hU
 hU
-FU
+hU
 hU
 hU
 hU
@@ -13662,14 +12465,14 @@ hU
 hU
 hV
 il
-it
+jL
 jL
 il
 hL
 RD
 jL
 kQ
-it
+jL
 je
 je
 jW
@@ -13750,7 +12553,7 @@ jL
 jL
 jW
 hV
-Vc
+hV
 jL
 jL
 Nl
@@ -13761,7 +12564,7 @@ ih
 dz
 bN
 BT
-rP
+ih
 tS
 cw
 ih
@@ -13778,7 +12581,7 @@ dh
 jL
 jL
 jL
-it
+jL
 dh
 jL
 jL
@@ -13786,42 +12589,42 @@ jL
 jL
 jL
 jL
-uv
-jc
-Hc
-jc
-cO
-jc
+jL
+jL
+jL
+jL
+gi
+jL
 mN
 hV
 hV
 hV
-Vc
 hV
 hV
 hV
 hV
 hV
-sH
-cO
-mN
+hV
+hV
+gi
+jL
 jL
 aB
 Zb
 hL
 jL
 jL
-uv
-jc
-jc
-BO
-jc
-jc
-jc
-IK
-Vx
-jE
-kB
+jL
+jL
+jL
+ji
+jL
+jL
+jL
+WK
+jL
+Rl
+Rl
 tx
 SX
 Ud
@@ -13892,7 +12695,7 @@ jL
 jL
 av
 jL
-it
+jL
 jL
 CD
 mM
@@ -13903,7 +12706,7 @@ ih
 ih
 ih
 ih
-rP
+ih
 ih
 ih
 ih
@@ -13920,7 +12723,7 @@ dh
 jL
 Dg
 bM
-it
+jL
 dh
 dh
 il
@@ -13930,23 +12733,23 @@ dh
 dh
 dh
 dh
-lW
+dh
 dh
 il
 jL
-gv
+jL
 jc
-jc
-jc
-Dt
-jc
-jc
-jc
-jc
-jc
-ok
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
 il
-it
+jL
 jL
 il
 Zb
@@ -13961,7 +12764,7 @@ hU
 hU
 hU
 jA
-it
+jL
 jL
 Rl
 rx
@@ -14024,8 +12827,8 @@ kn
 TT
 ZH
 jL
-kF
-cO
+jL
+gi
 Vr
 hV
 Cr
@@ -14034,7 +12837,7 @@ xa
 jL
 jW
 hV
-Vc
+hV
 NL
 Mg
 qD
@@ -14045,7 +12848,7 @@ jL
 jL
 jL
 jL
-it
+jL
 jL
 jL
 jL
@@ -14062,7 +12865,7 @@ dh
 jL
 dz
 bN
-it
+jL
 dh
 dh
 il
@@ -14072,15 +12875,15 @@ dh
 dh
 dh
 dh
+dh
+dh
+il
+jL
+gv
 lW
-dh
-il
-jL
-it
 jL
 jL
 jL
-it
 jL
 jL
 jL
@@ -14088,7 +12891,7 @@ jL
 jL
 jL
 il
-it
+jL
 jL
 il
 Zb
@@ -14103,7 +12906,7 @@ hU
 hU
 hU
 jA
-it
+jL
 jL
 Rl
 kE
@@ -14169,42 +12972,42 @@ jL
 TC
 il
 vO
-cA
+hV
 aX
 il
 jL
 jL
 jW
 hV
-bX
-jc
-TO
+hV
+jL
+mM
 JV
-Kg
-jc
-CZ
-jc
-jc
-jc
-jc
-cf
-jc
-Hc
-jc
-jc
-jc
-jc
-jc
-jc
-jc
-jc
-jc
-jc
-de
-jc
-jc
-jc
-ZC
+OT
+jL
+Ze
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+dh
+jL
+jL
+jL
+jL
 dh
 jL
 jL
@@ -14214,15 +13017,15 @@ jL
 jL
 jL
 jL
-it
+jL
 jL
 gi
-jL
-it
+dN
+gU
 hV
 hV
 hV
-Vc
+hV
 hV
 hV
 hV
@@ -14230,7 +13033,7 @@ hV
 hV
 hV
 gi
-it
+jL
 jL
 aB
 Zb
@@ -14245,7 +13048,7 @@ jL
 jL
 jL
 WK
-it
+jL
 Rl
 Rl
 Rl
@@ -14308,17 +13111,17 @@ kn
 TT
 li
 nE
-it
+jL
 il
 Fo
 hV
 lq
 il
-kF
-jc
-Wn
-jc
-ok
+jL
+jL
+av
+jL
+jL
 jL
 ZU
 Ht
@@ -14331,7 +13134,7 @@ ih
 ih
 jL
 jL
-it
+jL
 ih
 ih
 ih
@@ -14346,7 +13149,7 @@ dh
 jL
 Dg
 bM
-it
+jL
 dh
 jL
 jL
@@ -14356,15 +13159,15 @@ jL
 jL
 jL
 jL
-it
+jL
 jL
 il
+dP
 jL
-it
 hV
 hU
 hU
-FU
+hU
 hU
 hU
 hU
@@ -14372,7 +13175,7 @@ hU
 hU
 hV
 il
-it
+jL
 jL
 il
 hL
@@ -14387,9 +13190,9 @@ jq
 hU
 hU
 jA
-uv
-jc
-ZE
+jL
+jL
+Rl
 Rl
 Rl
 Rl
@@ -14450,13 +13253,13 @@ kn
 TT
 ZH
 jL
-it
+jL
 il
 il
 il
 il
 il
-it
+jL
 jL
 jW
 hV
@@ -14473,7 +13276,7 @@ bM
 ih
 jL
 jL
-it
+jL
 ih
 Dg
 bM
@@ -14488,7 +13291,7 @@ dh
 jL
 dz
 bN
-it
+jL
 dh
 dh
 il
@@ -14498,15 +13301,15 @@ dh
 Ec
 dh
 dh
-it
+jL
 dh
 il
 jL
-it
+jc
 hV
 hV
 hV
-Vc
+hV
 YU
 hV
 hV
@@ -14514,7 +13317,7 @@ hV
 hV
 hV
 il
-it
+jL
 jL
 il
 jL
@@ -14530,8 +13333,8 @@ FL
 jx
 Rp
 jW
-Hg
-ok
+Ho
+jL
 Rl
 Rl
 jL
@@ -14592,13 +13395,13 @@ kn
 Lg
 jL
 jL
-uv
-uP
-jc
-ZA
-jc
-jc
-ok
+jL
+jL
+jL
+VH
+jL
+jL
+jL
 jL
 jW
 hV
@@ -14615,7 +13418,7 @@ bN
 ih
 jL
 jL
-it
+jL
 ih
 dz
 bN
@@ -14630,7 +13433,7 @@ dh
 jL
 jL
 jL
-it
+jL
 dh
 dh
 il
@@ -14640,23 +13443,23 @@ il
 il
 il
 il
-YF
+av
 il
 il
+ej
 ku
-pN
 il
 il
 il
-Mh
-il
-il
-il
+Rf
 il
 il
 il
 il
-it
+il
+il
+il
+jL
 jL
 VH
 jL
@@ -14734,8 +13537,8 @@ kn
 jW
 jW
 Ho
-jc
-ok
+jL
+jL
 ux
 jL
 ux
@@ -14757,7 +13560,7 @@ Jc
 ih
 jL
 jL
-it
+jL
 ih
 Jc
 ih
@@ -14772,7 +13575,7 @@ dh
 dh
 Ec
 dh
-lW
+dh
 dh
 dh
 il
@@ -14782,15 +13585,15 @@ fR
 Ln
 fR
 fR
-dP
+fR
 fR
 il
 ku
-pN
+hM
 gE
 il
 tI
-GZ
+tI
 il
 vu
 il
@@ -14798,7 +13601,7 @@ vu
 il
 vu
 il
-ej
+je
 je
 je
 je
@@ -14914,25 +13717,25 @@ il
 il
 il
 dG
-Us
+dG
 il
 il
 il
 EN
 Ng
-ff
-ff
-ff
-ff
-wp
+fR
+fR
+fR
+fR
+fR
 fR
 il
 FX
-sP
+ku
 As
 il
+gM
 tI
-GZ
 il
 Rf
 il
@@ -14940,13 +13743,13 @@ Rf
 il
 Rf
 il
-SF
-fb
-fb
-fb
-fb
-fb
-yG
+FL
+jx
+jx
+jx
+jx
+jx
+Rp
 jW
 jW
 jW
@@ -15041,7 +13844,7 @@ Ln
 fR
 fR
 fR
-dP
+fR
 fR
 Uu
 il
@@ -15056,7 +13859,7 @@ il
 fR
 fR
 fR
-dP
+fR
 fR
 fR
 il
@@ -15070,11 +13873,11 @@ Wg
 fT
 il
 oF
-pN
+cO
 CN
 il
 gM
-GZ
+tI
 WS
 tI
 tI
@@ -15082,10 +13885,10 @@ tI
 WS
 tI
 il
-Je
-MH
-AG
-Tn
+Wk
+fh
+fh
+fh
 zf
 iG
 jW
@@ -15179,12 +13982,12 @@ hO
 kn
 kn
 jW
-Me
-ff
-ff
-ff
-dH
-ff
+fR
+fR
+fR
+fR
+fR
+fR
 dO
 il
 ku
@@ -15198,7 +14001,7 @@ il
 fR
 fR
 fR
-dP
+fR
 Ds
 fR
 il
@@ -15211,12 +14014,12 @@ fT
 Wg
 fT
 il
-ku
-pN
+eJ
+ix
 JS
 il
+gM
 tI
-GZ
 tI
 tI
 tI
@@ -15225,9 +14028,9 @@ tI
 tI
 il
 iu
-ix
+fh
 LZ
-ix
+fh
 mD
 jW
 jW
@@ -15321,7 +14124,7 @@ jW
 hO
 hO
 jW
-dP
+fR
 fR
 VP
 fR
@@ -15340,7 +14143,7 @@ il
 fR
 fR
 fR
-dP
+fR
 dU
 fR
 il
@@ -15354,11 +14157,11 @@ IC
 fT
 il
 ku
-pN
+jE
 sL
 il
 zt
-Xd
+tI
 tI
 tI
 tI
@@ -15463,7 +14266,7 @@ hO
 hO
 kn
 jW
-dP
+fR
 il
 il
 HB
@@ -15482,7 +14285,7 @@ il
 du
 Wg
 dV
-dP
+fR
 VJ
 fR
 il
@@ -15624,7 +14427,7 @@ il
 TH
 fR
 fR
-dP
+fR
 fR
 Gi
 il
@@ -15747,26 +14550,26 @@ kn
 kn
 hO
 jW
-Fn
-fb
-xG
+FL
+jx
+Rp
 qh
-xl
-fb
-lS
+FL
+jx
+Md
 il
 FX
-wa
-gU
+FA
+fL
 vv
-hM
+fL
 la
 ku
 il
 fR
 fR
 du
-dN
+Wg
 dV
 fR
 il
@@ -15901,14 +14704,14 @@ ku
 fL
 fL
 fL
-zh
+fL
 fL
 fL
 dk
 fR
 fR
 fR
-dP
+fR
 fR
 fR
 il
@@ -16050,7 +14853,7 @@ dk
 fR
 fR
 fR
-dP
+fR
 fR
 fR
 il
@@ -16064,7 +14867,7 @@ hO
 kn
 jW
 hL
-II
+Mt
 GP
 EY
 Fv
@@ -16185,14 +14988,14 @@ Qm
 fL
 ty
 SU
-zh
+fL
 fL
 ku
 il
 fR
 fR
 fR
-dP
+fR
 fR
 fR
 il
@@ -16205,7 +15008,7 @@ hO
 kn
 kn
 jW
-It
+hL
 rN
 XV
 hL
@@ -16327,14 +15130,14 @@ TS
 ku
 ku
 ku
-pN
+ku
 ku
 ku
 il
 HW
 HW
 HW
-FJ
+HW
 HW
 HW
 il
@@ -16348,14 +15151,14 @@ kn
 kn
 jW
 II
+ff
+mg
+oc
+sH
 hL
 hL
 hL
-hL
-hL
-hL
-hL
-hL
+wa
 hL
 jW
 ie
@@ -16469,14 +15272,14 @@ il
 il
 Dp
 il
-mo
+Dp
 il
 il
 il
 ND
 ND
 ND
-DF
+ND
 ND
 ND
 il
@@ -16489,12 +15292,12 @@ kn
 kn
 kn
 jW
-II
+hL
+kA
 hL
 hL
-hL
-hL
-hL
+sP
+sq
 hL
 hL
 hL
@@ -16611,14 +15414,14 @@ ih
 ih
 ih
 ih
-rP
+ih
 KB
 KB
 il
 ND
 ND
 ND
-DF
+ND
 ND
 ND
 il
@@ -16631,12 +15434,12 @@ kn
 kn
 kn
 jW
-gr
 Rl
 Rl
 Rl
 Rl
-Rl
+sY
+uv
 Rl
 hL
 hL
@@ -16751,16 +15554,16 @@ kn
 jW
 ih
 ih
+cf
 ih
 ih
-sY
-MY
-MY
-rd
-Tu
-zV
-zV
-mj
+ih
+ih
+Dp
+ND
+ND
+ND
+ND
 ND
 ND
 jW
@@ -16776,10 +15579,10 @@ jW
 KW
 Rl
 Rl
-Rl
-Rl
-Rl
-Rl
+od
+tp
+uP
+vQ
 hL
 hL
 jW
@@ -16916,9 +15719,9 @@ hO
 hO
 jW
 Rl
-nV
 Rl
-nV
+Rl
+Rl
 Rl
 nV
 Rl
@@ -17058,9 +15861,9 @@ kn
 kn
 jW
 Rl
+kB
 Rl
-Rl
-Rl
+kB
 Rl
 Rl
 Rl
