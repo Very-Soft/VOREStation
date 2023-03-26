@@ -279,9 +279,6 @@
 		Z_LEVEL_BEACH
 	)
 
-/obj/effect/landmark/map_data/groundbase
-	height = 3
-
 /obj/effect/overmap/visitable/sector/virgo3b
 	name = "Virgo 3B"
 	desc = "Full of phoron, and home to the NSB Adephagia."
@@ -306,25 +303,6 @@
 	extra_z_levels = list()
 
 /obj/effect/overmap/visitable/sector/virgo3c
-	name = "Virgo 3C"
-	desc = "A small, volcanically active moon."
-	scanner_desc = @{"[i]Registration[/i]: NSB Rascal's Pass
-[i]Class[/i]: Installation
-[i]Transponder[/i]: Transmitting (CIV), NanoTrasen IFF
-[b]Notice[/b]: NanoTrasen Base, authorized personnel only"}
-	known = TRUE
-	in_space = TRUE
-
-	icon = 'icons/obj/overmap.dmi'
-	icon_state = "lush"
-
-	skybox_icon = null
-	skybox_icon_state = null
-	skybox_pixel_x = 0
-	skybox_pixel_y = 0
-
-	initial_generic_waypoints = list("groundbase", "gb_excursion_pad","omship_axolotl")
-	initial_restricted_waypoints = list()
 
 	extra_z_levels = list(
 		Z_LEVEL_MINING,

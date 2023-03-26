@@ -12,6 +12,17 @@
 	#include "tether_events.dm"
 	#include "../offmap_vr/common_offmaps.dm"
 
+	//Compatability files
+
+	#include "../stellar_delight/stellar_delight_areas.dm"
+	#include "../groundbase/groundbase_areas.dm"
+	#include "../stellar_delight/stellar_delight_shuttle_defs.dm"
+	#include "../groundbase/groundbase_shuttles.dm"
+	#include "../stellar_delight/stellar_delight_telecomms.dm"
+	#include "../groundbase/groundbase_telecomms.dm"
+	#include "../groundbase/groundbase_wilds.dm"
+	#include "../groundbase/groundbase_things.dm"
+
 	#if !AWAY_MISSION_TEST //Don't include these for just testing away missions
 		#include "tether-01-surface1.dmm"
 		#include "tether-02-surface2.dmm"

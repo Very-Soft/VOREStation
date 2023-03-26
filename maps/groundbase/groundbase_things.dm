@@ -112,3 +112,27 @@ VIRGO3B_TURF_CREATE(/turf/simulated/floor/outdoors/rocks)
 /obj/effect/landmark/wildlife/forest
 	name = "roaming wildlife"
 	wildlife_type = 2
+
+/obj/effect/landmark/map_data/groundbase
+	height = 3
+
+/obj/effect/overmap/visitable/sector/virgo3c
+	name = "Virgo 3C"
+	desc = "A small, volcanically active moon."
+	scanner_desc = @{"[i]Registration[/i]: NSB Rascal's Pass
+[i]Class[/i]: Installation
+[i]Transponder[/i]: Transmitting (CIV), NanoTrasen IFF
+[b]Notice[/b]: NanoTrasen Base, authorized personnel only"}
+	known = TRUE
+	in_space = TRUE
+
+	icon = 'icons/obj/overmap.dmi'
+	icon_state = "lush"
+
+	skybox_icon = null
+	skybox_icon_state = null
+	skybox_pixel_x = 0
+	skybox_pixel_y = 0
+
+	initial_generic_waypoints = list("groundbase", "gb_excursion_pad","omship_axolotl")
+	initial_restricted_waypoints = list()

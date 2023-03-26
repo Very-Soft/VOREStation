@@ -12,6 +12,19 @@
 	#include "..\offmap_vr\common_offmaps.dm"
 	#include "..\~map_system\maps_vr.dm"
 
+	//Compatability files
+
+	#include "../tether/tether_areas.dm"
+	#include "../stellar_delight/stellar_delight_areas.dm"
+	#include "../tether/tether_turfs.dm"
+	#include "../tether/tether_phoronlock.dm"
+	#include "../tether/tether_things.dm"
+	#include "../tether/tether_shuttles.dm"
+	#include "../stellar_delight/stellar_delight_shuttle_defs.dm"
+	#include "../tether/tether_telecomms.dm"
+	#include "../stellar_delight/stellar_delight_telecomms.dm"
+	#include "../groundbase/groundbase_wilds.dm"
+
 	#if !AWAY_MISSION_TEST //Don't include these for just testing away missions
 		#include "gb-z1.dmm"
 		#include "gb-z2.dmm"

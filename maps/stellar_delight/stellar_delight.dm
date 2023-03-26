@@ -11,6 +11,20 @@
 	#include "..\offmap_vr\common_offmaps.dm"
 	#include "..\tether\tether_jobs.dm"
 
+	//Compatability files
+
+	#include "../tether/tether_areas.dm"
+	#include "../groundbase/groundbase_areas.dm"
+	#include "../tether/tether_turfs.dm"
+	#include "../tether/tether_phoronlock.dm"
+	#include "../tether/tether_things.dm"
+	#include "../tether/tether_shuttles.dm"
+	#include "../groundbase/groundbase_shuttles.dm"
+	#include "../tether/tether_telecomms.dm"
+	#include "../groundbase/groundbase_telecomms.dm"
+	#include "../groundbase/groundbase_wilds.dm"
+	#include "../groundbase/groundbase_things.dm"
+
 	#if !AWAY_MISSION_TEST //Don't include these for just testing away missions
 		#include "stellar_delight1.dmm"
 		#include "stellar_delight2.dmm"
@@ -21,6 +35,6 @@
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring Tether
+	#warn A map has already been included, ignoring Stellar Delight
 
 #endif
