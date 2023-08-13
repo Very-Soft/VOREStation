@@ -68,12 +68,6 @@
 "mc" = (
 /turf/simulated/floor/outdoors/grass,
 /area/hab_ring/chamber6)
-"mt" = (
-/obj/effect/landmark{
-	name = "Observer-Start"
-	},
-/turf/simulated/floor/outdoors/sidewalk/slab,
-/area/hab_ring/chamber6)
 "mX" = (
 /obj/machinery/light{
 	dir = 8
@@ -165,12 +159,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hab_ring/chamber5)
-"ww" = (
-/obj/effect/landmark{
-	name = "Observer-Start"
-	},
-/turf/simulated/floor/outdoors/sidewalk/slab,
-/area/hab_ring/chamber1)
 "xh" = (
 /obj/structure/grille,
 /obj/machinery/door/firedoor/glass,
@@ -367,12 +355,6 @@
 /obj/effect/map_effect/portal/line/side_a,
 /turf/simulated/floor,
 /area/maintenance/hab_ring/chamber5/main/port)
-"Px" = (
-/obj/effect/landmark{
-	name = "Observer-Start"
-	},
-/turf/simulated/floor/outdoors/sidewalk/slab,
-/area/hab_ring/engineering)
 "Qm" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/maintenance/common,
@@ -10293,7 +10275,7 @@ El
 El
 El
 El
-Px
+El
 El
 El
 El
@@ -10341,7 +10323,7 @@ Rh
 Rh
 Rh
 Rh
-mt
+Rh
 Rh
 Rh
 Rh
@@ -10388,7 +10370,7 @@ bn
 bn
 bn
 bn
-ww
+bn
 bn
 bn
 bn
